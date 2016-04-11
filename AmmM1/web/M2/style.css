@@ -1,0 +1,288 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-mar-2016, 16.16.33
+    Author     : Flooz
+*/
+html, body, div, iframe,
+h1, h2, h3, h4, h5, h6, p, ol, ul, li, form,
+table, tr, th, td, sidebar1, header{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+
+header{
+    width: 100%;
+    top:0;
+    z-index: 2;
+    background-color: green;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-attachment:fixed;
+    float: top;
+    position:fixed;
+    
+    z-index: 2;
+}
+h1, h2 ,h3{position: static;
+           font-weight: bold;}
+
+#section p{ font:  300 16px/22px "Raleway", "Georgia", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 15px;}
+html, body, section, header {margin: 0;}
+
+input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=submit], input[type=reset], button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    text-align: center;   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#vend {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#divA input,textarea {
+    display: block;
+}
+
+ th, td {
+    padding: 40px;
+    text-align: left;
+    height: 60%
+}
+table, th, td 
+{
+  border-collapse: collapse;
+  border-bottom: black;
+  background-attachment:fixed;
+  table-layout:fixed;
+  width: 100%;  
+}
+ tr:nth-child(even) {background-color: #f2f2f2}
+#sidebar1 a:hover{
+    font-weight: bolder;
+    color: blue;
+    text-decoration: underline;
+}
+form{border-radius: 15px;
+    right:30%;
+    background-color: white;
+    width: 50%;
+    display:block;
+    padding: 20px 40px 10px 10px;
+    background-image: url("../Img/sfondo.jpg");
+}
+@media only screen and (min-width: 1024px)
+{
+    header h1
+{
+    font-family:fantasy;
+    font-size: 40px;
+    color: white;
+}
+header{height: 10%;}
+section
+{
+    z-index: 1;
+    padding-top: 10%;
+    width: 80%;
+    height: 90%;
+    left:20%;
+    padding-left: 20%;
+    float: right;
+
+}
+
+#sidebar1
+{
+    background-color: #0099cc;
+    z-index: 0;
+    width: 20%;
+    height: 90%;
+    padding-top: 5%;
+    position:fixed;
+    float: left;
+    font-size: 15px;
+}
+#sidebar1 p{ 
+    color: white;
+    font-family: fantasy;
+     font-size: 25px;
+     text-decoration: none;
+}
+#sidebar1 ul{position: static;}
+#sidebar1 li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+p {font:12px/150% Arial, sans-serif}
+iframe{
+     border:0;     
+     height:300px;
+     width:300px;
+}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px)
+{
+    header h1
+{
+    font-family:fantasy;
+    font-size: 20px;
+    color: white;
+}
+header{height: 10%;}
+section
+{
+    z-index: 1;
+    padding-top: 70px;
+    width: 75%;
+    height: 80%;
+    left:20%;
+    
+    float: right;
+
+}
+#sidebar1 p{ 
+    color: white;
+    font-family: fantasy;
+     font-size: 25px;
+     text-decoration: none;
+}
+#sidebar1
+{
+    background-color: #0099cc;
+    z-index: 0;
+    width: 25%;
+    height: 100%;
+    padding-top: 5%;
+    position:fixed;
+    float: left;
+}
+#sidebar1 a{ 
+    
+    color: white;}
+#sidebar1 li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+#mapsdx{float: left;}
+#mapssx{float:right;}
+
+
+}
+iframe{
+     border:0;     
+     height:150px;
+     width:150px;
+}
+
+@media only screen and (max-width: 600px)
+{
+header{height: 10%;}
+header img{width: 100%;
+           height: 100%;
+           border:0;
+           left:0;
+             float:left;}
+header h1
+{
+    font-family:fantasy;
+    font-size: 20px;
+    color: white;
+}
+section
+{
+    z-index: 1;
+    padding-top: 30px;
+    width: 100%;
+    height: 80%;
+    
+    
+    float: right;
+
+}
+#sidebar1 p{ 
+    color: white;
+    font-family: fantasy;
+     font-size: 25px;
+     text-decoration: none;
+     
+}
+#sidebar1
+{
+    background-color: green;
+    z-index: 0;
+    width: 100%;
+    height: 10%;
+    margin:0;
+    clear: both;
+   bottom: 0;
+   left: 0;
+   position: static;
+}
+
+#sidebar1 a{ color: white;}
+
+#mapsdx{float: left;}
+#mapssx{float:right;}
+iframe{
+     border:0;     
+     height:150px;
+     width:140px;
+}
+#sidebar1 li {
+    padding: 5px;
+    margin-bottom: 3fpx;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+}
